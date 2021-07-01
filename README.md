@@ -36,7 +36,7 @@ That's where sentiment analysis helps to understand the customer like and dislik
 
 ## 🥇Crawling Amazon and Goodreads :
 
-- Created a [`Amazon`](https://github.com/TeamEpicProjects/Penguin-Random-House/blob/Day3/Nitheesh_Day3.ipynb) and [`Goodreads crawler`](https://github.com/TeamEpicProjects/Penguin-Random-House/blob/Day4/Nitheesh_Day4.ipynb) based on beautiful Soup (bs4)
+- Created a [`Amazon`](https://github.com/Nitheesh1305/Penguin-Random-House---Sentiment-Analysis/blob/main/Amazon%20Scraper.ipynb) and [`Goodreads crawler`](https://github.com/Nitheesh1305/Penguin-Random-House---Sentiment-Analysis/blob/main/Good_Reads%20Scraper.ipynb) based on beautiful Soup (bs4)
 - Downloaded all the reviews that spans over multiple pages in each page, altogether with the ratings (1-5 stars) and the dates
 - Downloaded the dataset.csv file
 
@@ -53,7 +53,7 @@ The final outcome looks like a table below :
 ## 🥈Extract the sentiment from each review via NLP
 - Cleaned the reviews using **Regular Expressions**
 - Extracted features from text using **Count Vectorizer**
-- Created a multinominal **text classifier** using [**`Multinominal Naive Bayes Classifier`**](https://github.com/TeamEpicProjects/Penguin-Random-House/blob/Day6/Nitheesh_Day%206.ipynb)
+- Created a multinominal **text classifier** using [**`Multinominal Naive Bayes Classifier`**](https://github.com/Nitheesh1305/Penguin-Random-House---Sentiment-Analysis/blob/main/MultiNominal%20Classifier.ipynb)
 - Output is Polarity -  Positive(1), Negative(-1) or Neutral(0)
 - Got an accuracy of 73.4
 
@@ -62,14 +62,14 @@ The final outcome looks like a table below :
 ## 🥉Improvising The results
 - Cleaned the reviews using **Regular Expressions**
 - Extracted features from text using **TF-IDF**
-- Created a Binary text classifier using [**`SGD Classifier`**](https://github.com/TeamEpicProjects/Penguin-Random-House/blob/Day7/Nitheesh_Day%207.ipynb) 
+- Created a Binary text classifier using [**`SGD Classifier`**](https://github.com/Nitheesh1305/Penguin-Random-House---Sentiment-Analysis/blob/main/SGD%20Classifier.ipynb) 
 - Output is  Polarity - Positive(1) or Negative(0) 
 - Used **GridSearchCV** for Cross Validation 
-- Improvised the results by implementing [**`Deep Learning Techniques : ANN , RNN[LSTM]`**](https://github.com/TeamEpicProjects/Penguin-Random-House/blob/Day8/Nitheesh_Day%208.ipynb)
+- Improvised the results by implementing [**`Deep Learning Techniques : ANN , RNN[LSTM]`**](https://github.com/Nitheesh1305/Penguin-Random-House---Sentiment-Analysis/blob/main/ANN%2CRNN.ipynb)
     - Activation Function - Sigmoid ; Optimizer - Adam ; Loss Function - Binary_Crossentropy
 
 ## 📊 Visualisation of the results, for product managers and exec management
-- Created a [`Visualisations`](https://github.com/TeamEpicProjects/Penguin-Random-House/blob/Day10/Nitheesh_Day%209%2610.ipynb) using Matplotlib and Seaborn for the following:
+- Created a [`Visualisations`](https://github.com/Nitheesh1305/Penguin-Random-House---Sentiment-Analysis/blob/main/Visulization.ipynb) using Matplotlib and Seaborn for the following:
     - Distribution of Ratings
     - Distribution of Sentiment
     - Sentiment Polarity Distribution
